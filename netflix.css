@@ -1,0 +1,66 @@
+#toppicks {
+    /* border: 1px solid red;    */
+    height: 100vh;
+}
+
+.navbar-brand {
+    font-weight: 650;
+    color: red !important;
+}
+
+/* .navbar-brand:hover {
+    cursor: pointer;
+} */
+
+
+.image {
+
+    height: 92vh;
+
+}
+
+.hover ul li:hover {
+    cursor: pointer;
+    background-color: grey;
+    border: radius 25px;
+    border-radius: 15px;
+}
+
+.toppicks-left,
+.toppicks-center,
+.toppicks-right {
+    padding: 10px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toppicks-card img {
+
+    height: 48vh;
+}
+
+/* .toppicks-card:hover {
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    margin-top: -8px;
+} */
+
+.toppicks-card {
+    transition: all 0.4s ease-in-out;
+}
+
+.toppicks-card img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.toppicks-card:hover {
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+.toppicks-card:hover img {
+    transform: rotateY(180deg);
+}
